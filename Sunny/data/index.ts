@@ -70,38 +70,107 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "TekiskyMart - Ecommerce Platform",
-    des: "Discover endless products through a seamless and engaging shopping journey at TekiskyMart.",
-    img: "/p1.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/node.png", "/mongodb.png"],
-    link: "/ui.tekiskymart.com",
+   {
+    id: 5,
+    title: "2D Metaverse - Virtual Collaboration Platform",
+    des: "An immersive browser-based metaverse where users can chat, move, video call, and share screens in real time — built with WebSocket, WebRTC, and a full-stack architecture.",
+    img: "/metaspace.png", // replace with your actual project thumbnail
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/node.png",
+      "/postgresql.svg", // or Prisma icon if you have it
+      "/docker.svg",
+    ],
+    link: "https://github.com/SunnyRajput9198/2-d-metaverse",
   },
-  {
-    id: 2,
-    title: "GearXpert - Auto Parts Ecommerce",
-    des: "Your trusted destination for premium auto parts with a sleek shopping experience.",
-    img: "/p2.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png","/gsap.png"],
-    link: "/ui.gearxpert.com",
-  },
-  {
-    id: 3,
-    title: "GoGroove - Online Store",
-    des: "A modern ecommerce platform built for smooth navigation and effortless shopping.",
-    img: "/p3.jpg",
-    iconLists: ["/re.svg", "/tail.svg", "/js.png", "/node.png", "/mongodb.png"],
-    link: "/ui.gogroove.com",
-  },
-  {
-    id: 4,
-    title: "Asmak International - Seafood LLC",
-    des: "A corporate website built to showcase premium seafood exports with a professional UI.",
-    img: "/p4.jpg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "/ui.asmak.com",
-  },
+{
+  id: 6,
+  title: "Muzer – Collaborative Music Streaming Platform",
+  des: "A real-time party music experience: create shared rooms, queue YouTube tracks, vote on the next song, and listen together in sync.",
+  img: "/Muzer.png", // replace with a screenshot or visual thumbnail of Muzer
+  iconLists: [
+    "/next.svg",
+    "/ts.svg",
+    "/node.png",
+    "/postgresql.svg",
+    "/docker.svg"
+  ],
+  link: "https://github.com/SunnyRajput9198/muzer"
+},
+{
+  id: 7,
+  title: "Millet – Agricultural Goods Ecommerce Site",
+  des: "A tailored online marketplace for agricultural products, streamlined for both buyers and sellers in the agri-supply chain.",
+  img: "/millet.png", // replace with an actual screenshot or visual asset of the project
+  iconLists: [
+    "/next.svg",      // if using Next.js
+    "/tail.svg",      // Tailwind CSS
+    "/ts.svg",        // TypeScript
+    "/node.png",      // Node.js backend (if any)
+    "/mongodb.png",   // or whichever database you used
+    "/docker.svg"     // optionally, for containerisation
+  ],
+  link: "https://github.com/SunnyRajput9198/Millet"
+},
+ {
+  id: 8,
+  title: "RAG-Based AI Assistant",
+  des: "A knowledge-infused conversational assistant built using Retrieval-Augmented Generation, enabling natural-language queries over custom content with enhanced accuracy and context.",
+  img: "/Rag.png", // replace with a screenshot of the assistant UI or architecture diagram
+  iconLists: [
+    "/python.svg",  // if it's built in Python
+    "/langchain.svg", // or whichever retrieval/LLM framework you used
+    "/node.png",    // if there’s a Node.js component
+    "/docker.svg",  // if containerised
+    "/ts.svg"       // if TypeScript used in some part
+  ],
+  link: "https://github.com/SunnyRajput9198/RAG-Based-Ai-Assistant"
+},
+{
+  id: 9,
+  title: "Smart-Study-Scheduler – Adaptive Study Planner",
+  des: "An intelligent scheduler that helps students organise and prioritise study sessions, track tasks and manage time effectively to boost productivity.",
+  img: "/schedular.png", // replace this with a strong thumbnail or screenshot of the project
+  iconLists: [
+    "/react.svg",       // example – adjust based on actual stack
+    "/node.png",        // backend or server logic
+    "/ts.svg",          // if you used TypeScript
+    "/mongodb.png",     // or whichever database you used
+    "/docker.svg"       // if containerized/deployed
+  ],
+  link: "https://github.com/SunnyRajput9198/Smart-study-schedular"
+}
+,
+{
+  id: 10,
+  title: "Image Builder – Custom Asset/Media Generator",
+  des: "A versatile tool for building and managing image assets (sprites, thumbnails, composites) with customizable pipelines and workflows.",
+  img: "/image.jpg", // replace with a screenshot or thumbnail of the tool in action
+  iconLists: [
+    "/node.png",      // Node.js
+    "/ts.svg",        // TypeScript
+    "/react.svg",     // If the UI is built in React
+    "/docker.svg",    // If containerised / pipeline deployed via Docker
+    "/ffmpeg.svg"     // If you used FFmpeg or similar for image processing (optional)
+  ],
+  link: "https://github.com/SunnyRajput9198/image-builder"
+}
+,{
+  id: 11,
+  title: "Object Detection – Intelligent Visual Recognition System",
+  des: "A computer-vision tool that uses deep learning to detect and classify objects in images or video streams, built to automate visual-analysis workflows.",
+  img: "/Open.png", // replace this with a screenshot of the model output/visual results
+  iconLists: [
+    "/python.svg",       // Python
+    "/tensorflow.svg",   // or PyTorch depending on the framework
+    "/opencv.svg",       // for image processing
+    "/docker.svg",       // if containerised/deployed
+    "/ts.svg"            // if there’s a TypeScript/Node portion (optional)
+  ],
+  link: "https://github.com/SunnyRajput9198/object-detection"
+}
 ];
 
 
