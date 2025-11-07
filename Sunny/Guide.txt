@@ -1,0 +1,89 @@
+🚀 DevXora Portfolio Guide  
+
+> A complete step-by-step guide to run and customize your Next-js portfolio. For beginners — no coding required.
+
+✅ Step 1: Install Required Tools  
+Before starting, make sure you have:  
+- Node.js (LTS): https://nodejs.org/  
+- Visual Studio Code: https://code.visualstudio.com/  
+
+✅ Step 2: Set Up the Project (ZIP Version)  
+1. Download and extract the ZIP file  
+2. Rename the folder if you want (e.g., devxora-portfolio)  
+3. Open the folder in Visual Studio Code  
+4. In VS Code, open a terminal: Terminal → New Terminal  
+5. Run this command to install all required packages:  
+
+   npm install  
+
+✅ Step 3: Customize Your Portfolio Content  
+🛠 All main content is editable in one file:  
+📂 /data/index.ts  
+
+You can customize:  
+- 🔗 Navigation (navLinks)  
+- 💼 Projects (myProjects)  
+- 🧠 Work Experience (workExperiences)  
+- 💬 Client Testimonials (clientReviews)  
+
+
+Example:  
+export const navItems = [
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+
+];
+
+🧑‍🎨 Change Your Name & Headline  
+Edit your intro and name in:  
+📂 /components/Hero.tsx  
+
+<p>Hi! I&apos;m Huzaif, a Full-Stack Developer.</p>
+
+
+📧 Update Contact Email in About Section  
+To change the contact email shown and copied:  
+📂 /components/ui/BentoGrid.tsx  
+
+Replace this:  
+ const text = "dev.huzaif@gmil.com";  line.no - 55 replace this email to yours
+
+And also this is for changing clipboard email:  
+navigator.clipboard.writeText('your email');  
+
+✏️ Update it to your own email like 'hello@yourdomain.com'  
+
+
+
+4. Go to /components/Footer.tsx and configure:   line.no 27
+
+ replace this 
+ https://mail.google.com/mail/?view=cm&fs=1&to=dev.huzaif@gmail.com
+ with yours.
+
+ <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dev.huzaif@gmail.com" 
+    target="_blank"
+    rel="noreferrer">
+
+📌 That’s it! Now your contact feature got ready 🚀  
+
+🚀 Step 5: Run the Project Locally  
+👉 Run this command in terminal:  
+   npm run dev  
+
+👉 Open your browser and go to:  
+   http://localhost:3000  
+
+🧾 Full Command List  
+npm install     # Install dependencies  
+npm run dev     # Start the development server  
+
+🏁 You're Done!  
+✅ No coding required  
+✅ Easy content customization  
+✅ Editable name, intro & navbar  
+✅ EmailJS contact form support  
+✅ Fully responsive 3D portfolio  
+✅ Just one command to launch!  
+
+Thank you very much...
