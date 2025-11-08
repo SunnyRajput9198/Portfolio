@@ -76,12 +76,12 @@ export const projects = [
     des: "An immersive browser-based metaverse where users can chat, move, video call, and share screens in real time — built with WebSocket, WebRTC, and a full-stack architecture.",
     img: "/metaspace.png", // replace with your actual project thumbnail
     iconLists: [
-      "/re.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/node.png",
-      "/postgresql.svg", // or Prisma icon if you have it
-      "/docker.svg",
+      "/skills/next.png",
+      "skills/tailwind.png",
+      "/skills/ts.png",
+      "/skills/express.png",
+      "/skills/postgresql.png", // or Prisma icon if you have it
+      "/skills/docker.png",
     ],
     link: "https://github.com/SunnyRajput9198/2-d-metaverse",
   },
@@ -91,11 +91,11 @@ export const projects = [
   des: "A real-time party music experience: create shared rooms, queue YouTube tracks, vote on the next song, and listen together in sync.",
   img: "/Muzer.png", // replace with a screenshot or visual thumbnail of Muzer
   iconLists: [
-    "/next.svg",
-    "/ts.svg",
-    "/node.png",
-    "/postgresql.svg",
-    "/docker.svg"
+    "/skills/next.png",
+    "/skills/ts.png",
+    "/skills/express.png",
+    "/skills/postgresql.png",
+    "/skills/docker.png",
   ],
   link: "https://github.com/SunnyRajput9198/muzer"
 },
@@ -105,12 +105,12 @@ export const projects = [
   des: "A tailored online marketplace for agricultural products, streamlined for both buyers and sellers in the agri-supply chain.",
   img: "/millet.png", // replace with an actual screenshot or visual asset of the project
   iconLists: [
-    "/next.svg",      // if using Next.js
-    "/tail.svg",      // Tailwind CSS
-    "/ts.svg",        // TypeScript
-    "/node.png",      // Node.js backend (if any)
-    "/mongodb.png",   // or whichever database you used
-    "/docker.svg"     // optionally, for containerisation
+    "/skills/react.png",      // example – adjust based on actual stack
+    "/skills/express.png",        // backend or server logic
+    "/skills/ts.png",          // if you used TypeScript
+    "/skills/postgresql.png",     // or whichever database you used
+    "/skills/prisma.png"      , // optionally, for containerisation,
+    "/skills/postgresql.png"     // if containerised/deployed
   ],
   link: "https://github.com/SunnyRajput9198/Millet"
 },
@@ -120,11 +120,11 @@ export const projects = [
   des: "A knowledge-infused conversational assistant built using Retrieval-Augmented Generation, enabling natural-language queries over custom content with enhanced accuracy and context.",
   img: "/Rag.png", // replace with a screenshot of the assistant UI or architecture diagram
   iconLists: [
-    "/python.svg",  // if it's built in Python
-    "/langchain.svg", // or whichever retrieval/LLM framework you used
-    "/node.png",    // if there’s a Node.js component
-    "/docker.svg",  // if containerised
-    "/ts.svg"       // if TypeScript used in some part
+    "/skills/numpy-seeklogo.png",  // if it's built in Python
+    "/skills/keras-seeklogo.png", 
+    "/skills/tensorflow-seeklogo.png",
+    "/skills/pandas-seeklogo.png",    // if there’s a Node.js component
+    "/skills/python-seeklogo.png",  // if containerised
   ],
   link: "https://github.com/SunnyRajput9198/RAG-Based-Ai-Assistant"
 },
@@ -134,11 +134,14 @@ export const projects = [
   des: "An intelligent scheduler that helps students organise and prioritise study sessions, track tasks and manage time effectively to boost productivity.",
   img: "/schedular.png", // replace this with a strong thumbnail or screenshot of the project
   iconLists: [
-    "/react.svg",       // example – adjust based on actual stack
-    "/node.png",        // backend or server logic
-    "/ts.svg",          // if you used TypeScript
-    "/mongodb.png",     // or whichever database you used
-    "/docker.svg"       // if containerized/deployed
+    "/skills/next.png",       // example – adjust based on actual stack
+    "/skills/express.png",        // backend or server logic
+    "/skills/ts.png",          // if you used TypeScript
+    "/skills/postgresql.png",     // or whichever database you used
+    "/skills/prisma.png"      , // optionally, for containerisation,
+    "/skills/postgresql.png" ,    // if containerised/deployed
+    "/skills/flask-seeklogo.png" ,    // if containerised/deployed
+    "/skills/python-seeklogo.png" ,    // if containerised/deployed
   ],
   link: "https://github.com/SunnyRajput9198/Smart-study-schedular"
 }
@@ -149,11 +152,12 @@ export const projects = [
   des: "A versatile tool for building and managing image assets (sprites, thumbnails, composites) with customizable pipelines and workflows.",
   img: "/image.jpg", // replace with a screenshot or thumbnail of the tool in action
   iconLists: [
-    "/node.png",      // Node.js
-    "/ts.svg",        // TypeScript
-    "/react.svg",     // If the UI is built in React
-    "/docker.svg",    // If containerised / pipeline deployed via Docker
-    "/ffmpeg.svg"     // If you used FFmpeg or similar for image processing (optional)
+"skills/express.png",      // Node.js
+"skills/ts.png",        // TypeScript
+"skills/next.png",      // Next.js
+"skills/python-seeklogo.png",      // Python
+"skills/flask-seeklogo.png",      // Flask
+
   ],
   link: "https://github.com/SunnyRajput9198/image-builder"
 }
@@ -163,11 +167,13 @@ export const projects = [
   des: "A computer-vision tool that uses deep learning to detect and classify objects in images or video streams, built to automate visual-analysis workflows.",
   img: "/Open.png", // replace this with a screenshot of the model output/visual results
   iconLists: [
-    "/python.svg",       // Python
-    "/tensorflow.svg",   // or PyTorch depending on the framework
-    "/opencv.svg",       // for image processing
-    "/docker.svg",       // if containerised/deployed
-    "/ts.svg"            // if there’s a TypeScript/Node portion (optional)
+   "/skills/numpy-seeklogo.png",       // Python
+   "/skills/python-seeklogo.png",   // or PyTorch depending on the framework
+   "/skills/pandas-seeklogo.png",   // or PyTorch depending on the framework
+   "/skills/opencv-seeklogo.png",       // for image processing
+   "/skills/keras-seeklogo.png",       // for deep learning
+   "/skills/tensorflow-seeklogo.png",       // for deep learning
+   "/skills/Ultralytics YOLOv8.png",       // for deep learning
   ],
   link: "https://github.com/SunnyRajput9198/object-detection"
 }
