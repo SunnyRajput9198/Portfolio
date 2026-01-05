@@ -75,6 +75,8 @@ export const projects = [
     title: "2D Metaverse - Virtual Collaboration Platform",
     des: "An immersive browser-based metaverse where users can chat, move, video call, and share screens in real time — built with WebSocket, WebRTC, and a full-stack architecture.",
     img: "/metaspace.png", // replace with your actual project thumbnail
+    category: "Full Stack",
+featured: true,
     iconLists: [
       "/skills/next.png",
       "skills/tailwind.png",
@@ -90,6 +92,8 @@ export const projects = [
   title: "Muzer – Collaborative Music Streaming Platform",
   des: "A real-time party music experience: create shared rooms, queue YouTube tracks, vote on the next song, and listen together in sync.",
   img: "/Muzer.png", // replace with a screenshot or visual thumbnail of Muzer
+  category: "Full Stack",
+  featured: true,
   iconLists: [
     "/skills/next.png",
     "/skills/ts.png",
@@ -104,6 +108,8 @@ export const projects = [
   title: "Millet – Agricultural Goods Ecommerce Site",
   des: "A tailored online marketplace for agricultural products, streamlined for both buyers and sellers in the agri-supply chain.",
   img: "/millet.png", // replace with an actual screenshot or visual asset of the project
+  category: "Full Stack",
+  featured: true,
   iconLists: [
     "/skills/react.png",      // example – adjust based on actual stack
     "/skills/express.png",        // backend or server logic
@@ -119,6 +125,8 @@ export const projects = [
   title: "RAG-Based AI Assistant",
   des: "A knowledge-infused conversational assistant built using Retrieval-Augmented Generation, enabling natural-language queries over custom content with enhanced accuracy and context.",
   img: "/Rag.png", // replace with a screenshot of the assistant UI or architecture diagram
+  category: "AI / ML",
+  featured: true,
   iconLists: [
     "/skills/numpy-seeklogo.png",  // if it's built in Python
     "/skills/keras-seeklogo.png", 
@@ -133,6 +141,8 @@ export const projects = [
   title: "Smart-Study-Scheduler – Adaptive Study Planner",
   des: "An intelligent scheduler that helps students organise and prioritise study sessions, track tasks and manage time effectively to boost productivity.",
   img: "/schedular.png", // replace this with a strong thumbnail or screenshot of the project
+  category: "AI / ML",
+  featured: true,
   iconLists: [
     "/skills/next.png",       // example – adjust based on actual stack
     "/skills/express.png",        // backend or server logic
@@ -151,6 +161,8 @@ export const projects = [
   title: "Image Builder – Custom Asset/Media Generator",
   des: "A versatile tool for building and managing image assets (sprites, thumbnails, composites) with customizable pipelines and workflows.",
   img: "/image.jpg", // replace with a screenshot or thumbnail of the tool in action
+  category: "Full Stack",
+  featured: true,
   iconLists: [
 "skills/express.png",      // Node.js
 "skills/ts.png",        // TypeScript
@@ -166,6 +178,8 @@ export const projects = [
   title: "Object Detection – Intelligent Visual Recognition System",
   des: "A computer-vision tool that uses deep learning to detect and classify objects in images or video streams, built to automate visual-analysis workflows.",
   img: "/Open.png", // replace this with a screenshot of the model output/visual results
+  category: "AI / ML",
+  featured: true,
   iconLists: [
    "/skills/numpy-seeklogo.png",       // Python
    "/skills/python-seeklogo.png",   // or PyTorch depending on the framework

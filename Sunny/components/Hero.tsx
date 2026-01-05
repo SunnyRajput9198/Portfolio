@@ -4,6 +4,21 @@ import { FiArrowRight, FiDownload } from "react-icons/fi"
 import { Spotlight } from "@/components/ui/Spotlight"
 import RotatingRoles from "./rotatingroles"
 
+const socials = [
+  {
+    icon: <FaGithub />,
+    href: "https://github.com/SunnyRajput9198",
+  },
+  {
+    icon: <FaLinkedin />,
+    href: "https://www.linkedin.com/in/sunny-rajput-0551702b4",
+  },
+  {
+    icon: <FaInstagram />,
+    href: "https://www.instagram.com/sunnyrajput_lodhi/",
+  },
+]
+
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[rgb(9,9,11)] pt-20">
@@ -33,8 +48,13 @@ const Hero = () => {
             </h1>
             <RotatingRoles />
             <p className="text-lg text-zinc-400 max-w-xl leading-relaxed">
-              I create beautiful, functional, and user-centered digital experiences. With 2+ years of experience in web
-              development, I bring ideas to life through clean code and thoughtful design.
+              I am a Full Stack Engineer who builds scalable, real-time web applications
+              and integrates AI/ML to create intelligent, user-centric products.
+
+              My strength lies in connecting modern frontend experiences with robust
+              backend systems and AI-powered features such as recommendations,
+              automation, and real-time intelligence.
+
             </p>
           </div>
 
@@ -42,7 +62,7 @@ const Hero = () => {
           <div className="flex flex-wrap gap-6 text-zinc-400 text-sm">
             <div className="flex items-center gap-2">
               <HiLocationMarker className="text-blue-500 text-lg" />
-              <span>Based in Algeria</span>
+              <span>Based in India</span>
             </div>
             <div className="flex items-center gap-2">
               <HiBriefcase className="text-blue-500 text-lg" />
@@ -56,27 +76,36 @@ const Hero = () => {
               Hire Me
               <FiArrowRight className="transition-transform group-hover:translate-x-1" />
             </button>
-            <button className="flex items-center gap-2 border border-zinc-800 text-white px-8 py-3.5 rounded-full font-bold transition-all hover:bg-white/5 active:scale-95">
+            <a
+              href="/Sunny_webd_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 border border-zinc-800 text-white px-8 py-3.5 rounded-full font-bold transition-all hover:bg-white/5 active:scale-95"
+            >
               <FiDownload />
               Download CV
-            </button>
+            </a>
+
           </div>
 
           <div className="pt-4 border-t border-zinc-800/50">
             <div className="flex items-center gap-6">
               <span className="text-sm font-medium text-zinc-500 uppercase tracking-widest">Follow me:</span>
               <div className="flex gap-4">
-                {[
-                  { icon: <FaGithub />, href: "#" },
-                  { icon: <FaDiscord />, href: "#" },
-                  { icon: <FaLinkedin />, href: "#" },
-                  { icon: <FaInstagram />, href: "#" },
-                ].map((social, i) => (
-                  <a key={i} href={social.href} className="text-zinc-400 hover:text-white transition-colors text-xl">
+                {socials.map((social, i) => (
+                  <a
+                    key={i}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-zinc-400 hover:text-white transition-colors text-xl"
+                    aria-label="social link"
+                  >
                     {social.icon}
                   </a>
                 ))}
               </div>
+
             </div>
           </div>
         </div>

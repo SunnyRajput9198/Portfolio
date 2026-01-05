@@ -22,10 +22,13 @@ export const PinContainer = ({
   );
 
   const onMouseEnter = () => {
-    setTransform("translate(-50%,-50%) rotateX(40deg) scale(0.8)");
+    // FIXED: Changed rotateX from 40deg to 0deg and scale from 0.8 to 1
+    // This stops the vertical flip and shrinking on hover
+    // setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
+
   const onMouseLeave = () => {
-    setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
+    // setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
 
   return (
@@ -48,8 +51,11 @@ export const PinContainer = ({
           style={{
             transform: transform,
           }}
-          // remove  bg-black
-          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] group-hover/pin:border-white/[0.2] transition duration-700 overflow-hidden"
+          // UPDATED CLASSNAME BELOW:
+          // 1. Removed old hover border: group-hover/pin:border-white/[0.2]
+          // 2. Added new cyan border on hover: group-hover/pin:border-cyan-500/40
+          // 3. Added multi-layer cyan shadow on hover: group-hover/pin:shadow-[...]
+          className="absolute left-1/2 p-4 top-1/2  flex justify-start items-start  rounded-2xl  shadow-[0_8px_16px_rgb(0_0_0/0.4)] border border-white/[0.1] transition duration-700 overflow-hidden group-hover/pin:border-cyan-500/40 group-hover/pin:shadow-[0_8px_16px_rgb(0_0_0/0.4),0_0_20px_rgba(6,182,212,0.4),0_0_40px_rgba(6,182,212,0.2)]"
         >
           <div className={cn(" relative z-50 ", className)}>{children}</div>
         </div>
@@ -66,9 +72,9 @@ export const PinPerspective = ({
   title?: string;
   href?: string;
 }) => {
+  // ... (Rest of the PinPerspective code remains exactly the same)
   return (
-    // change w-96 to w-full
-    <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
+    <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0  z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0  flex justify-center">
           <a

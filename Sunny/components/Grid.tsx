@@ -20,19 +20,21 @@ const Grid = () => {
           <div className="space-y-12">
             <div className="space-y-6 text-zinc-400 leading-relaxed text-lg">
               <p>
-                I&apos;m a creative front-end developer passionate about building modern and responsive web experiences.
-                My journey began with a love for design and evolved into a deep curiosity for how the web works —
-                combining logic with creativity to bring ideas to life.
+                I&apos;m a <span className="text-white font-medium">Full Stack Engineer</span> with strong experience in building
+                scalable, real-time web applications and AI-powered systems. I enjoy working across the entire stack —
+                from crafting responsive user interfaces to designing robust backend architectures and integrating
+                intelligent features using machine learning.
               </p>
               <p>
-                When I&apos;m not coding, I enjoy learning new technologies, improving my projects, and exploring better
-                ways to make the web faster and more engaging. I believe in continuous learning, attention to detail,
-                and the power of clean, meaningful design.
+                My journey started with frontend development, but quickly expanded into backend systems, real-time
+                communication (WebSockets & WebRTC), and AI/ML. I love solving complex problems, optimizing performance,
+                and turning ideas into production-ready products that feel fast, intuitive, and reliable.
               </p>
             </div>
 
+
             <div className="space-y-8">
-              <h2 className="text-3xl font-bold text-white">What Drives Me</h2>
+             <h2 className="text-3xl font-bold text-white">What I Focus On</h2>
 
               <div className="grid gap-6">
                 <div className="group flex items-start gap-4 p-6 rounded-2xl bg-zinc-900/50 border border-zinc-800 transition-all hover:bg-zinc-900 hover:border-blue-500/50">
@@ -40,8 +42,11 @@ const Grid = () => {
                     <FaCode className="text-2xl" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-white mb-1">Languages</h3>
-                    <p className="text-zinc-500">HTML, CSS, JavaScript, Java, C, React</p>
+                    <h3 className="text-xl font-bold text-white mb-1">Tech Stack</h3>
+                    <p className="text-zinc-500">
+                      JavaScript, TypeScript, React, Next.js, Node.js, Python, SQL
+                    </p>
+
                   </div>
                 </div>
 
@@ -51,7 +56,10 @@ const Grid = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-1">Education</h3>
-                    <p className="text-zinc-500">USTHB in Computer Science</p>
+                    <p className="text-zinc-500">
+                      B.Tech in Computer Science — Kamla Nehru Institute of Technology
+                    </p>
+
                   </div>
                 </div>
 
@@ -61,7 +69,11 @@ const Grid = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-white mb-1">Projects</h3>
-                    <p className="text-zinc-500">Built more than 5 projects</p>
+                    <p className="text-zinc-500">
+                      Built full-stack, real-time & AI-driven projects including a 2D metaverse,
+                      collaborative platforms, and ML-powered systems
+                    </p>
+
                   </div>
                 </div>
               </div>
