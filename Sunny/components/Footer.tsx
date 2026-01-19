@@ -58,13 +58,13 @@ const Footer = () => {
             focus:outline-none focus:ring-2 focus:ring-purple-500"
           >
             <option value="">Select Resume</option>
-            <option value="/Sunny_webd_resume.pdf">
+            <option value="/Sunny_webd.pdf">
               Full Stack Resume
             </option>
-            <option value="/Sunny_Aiml.pdf">
+            <option value="/Sunny_Ml.pdf">
               AI / ML Resume
             </option>
-            <option value="/Sunny_Full_Stack_ai.pdf">
+            <option value="/Sunny_Ai_Full.pdf">
               Full Stack + AI Resume
             </option>
           </select>

@@ -81,7 +81,7 @@ const Hero = () => {
             </button>
 
             <a
-              href="/Sunny_webd_resume.pdf"
+              href="/Sunny_webd.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 border border-zinc-800 text-white px-8 py-3.5 rounded-full font-bold transition hover:bg-white/5 active:scale-95 w-full sm:w-auto"
